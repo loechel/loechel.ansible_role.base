@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+  remote_user: root
+  become: true
+  roles:
+    - loechel.ansible_role.test
+
+...
